@@ -1,3 +1,5 @@
+// A Day of One-Line Pitches — entrypoint.
+// Deterministically writes the one-line pitch to /output/entry.txt.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const PITCH =
